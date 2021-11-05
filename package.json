@@ -1,0 +1,56 @@
+{
+  "name": "esbuild-plugin-unprefix-core-modules",
+  "version": "0.0.0",
+  "description": "An esbuild plugin to remove 'node:*' prefix for older Node.js versions.",
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "esbuild-plugin",
+    "node",
+    "coreModules"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "commit": "npx git-cz || exit 0",
+    "commit-retry": "npx git-cz --retry || exit 0",
+    "lint": "eslint *.js",
+    "semantic-release": "semantic-release",
+    "test": "echo 'Tests need to be setup!'"
+  },
+  "homepage": "https://github.com/thierrymichel/esbuild-plugin-unprefix-core-modules#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thierrymichel/esbuild-plugin-unprefix-core-modules.git"
+  },
+  "author": {
+    "name": "Thierry Michel",
+    "email": "thierry@epic.net",
+    "url": "http://epic.net"
+  },
+  "bugs": {
+    "url": "https://github.com/thierrymichel/esbuild-plugin-unprefix-core-modules/issues"
+  },
+  "license": "SEE LICENSE IN UNLICENSE",
+  "devDependencies": {
+    "@commitlint/cli": "^14.1.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "commitizen": "^4.2.4",
+    "cz-ccgls": "^0.3.4",
+    "eslint": "^8.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1",
+    "semantic-release": "^18.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-ccgls"
+    },
+    "cz-ccgls": {
+      "useScopes": false
+    }
+  },
+  "packageManager": "yarn@3.1.0"
+}
