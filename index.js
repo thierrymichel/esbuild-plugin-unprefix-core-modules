@@ -11,4 +11,4 @@ const unprefixNodeCoreModules = {
   },
 }
 
-module.exports = unprefixNodeCoreModules;
+module.exports = unprefixNodeCoreModules
