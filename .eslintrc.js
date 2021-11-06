@@ -5,6 +5,7 @@ module.exports = {
   env: {
     node: true,
     es2021: true,
+    'jest/globals': true,
   },
   parserOptions: {
     ecmaVersion: 'latest',
@@ -12,7 +13,7 @@ module.exports = {
   },
   ignorePatterns: ['node_modules/'],
   extends: ['eslint:recommended'],
-  plugins: ['prettier'],
+  plugins: ['prettier', 'jest'],
   rules: {
     'accessor-pairs': 2,
     'array-callback-return': 2,
