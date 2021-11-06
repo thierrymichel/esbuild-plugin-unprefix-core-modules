@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.1.1](https://github.com/thierrymichel/esbuild-plugin-unprefix-core-modules/compare/v1.1.0...v1.1.1) (2021-11-06)
+
+
+### Bug Fixes
+
+* :memo: update install documentation ([a536d6a](https://github.com/thierrymichel/esbuild-plugin-unprefix-core-modules/commit/a536d6ad9684c7857fe004ed1d8bb0735b811f94))
+
 # [1.1.0](https://github.com/thierrymichel/esbuild-plugin-unprefix-core-modules/compare/v1.0.0...v1.1.0) (2021-11-06)
 
 
