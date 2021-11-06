@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.1.2](https://github.com/thierrymichel/esbuild-plugin-unprefix-core-modules/compare/v1.1.1...v1.1.2) (2021-11-06)
+
+
+### Bug Fixes
+
+* :see_no_evil: improve NPM ignore ([31152f4](https://github.com/thierrymichel/esbuild-plugin-unprefix-core-modules/commit/31152f41e507745fd4cb363f97b461517c70e186))
+
 ## [1.1.1](https://github.com/thierrymichel/esbuild-plugin-unprefix-core-modules/compare/v1.1.0...v1.1.1) (2021-11-06)
 
 
