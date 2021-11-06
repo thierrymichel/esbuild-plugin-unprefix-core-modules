@@ -10,13 +10,13 @@
 ## Install
 
 ```sh
-yarn add -D esbuild-css-modules-plugin
+yarn add -D esbuild-plugin-unprefix-core-modules
 ```
 
 or
 
 ```sh
-npm i -D esbuild-css-modules-plugin
+npm i -D esbuild-plugin-unprefix-core-modules
 ```
 
 ## Usage
